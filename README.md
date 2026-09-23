@@ -194,11 +194,3 @@ Atalhos válidos apenas no buffer do dashboard:
 ---
 
 ## Observações sobre a config
-
-1. **`[d` / `]d` estão invertidos** em relação ao padrão do Neovim: `[d` chama `goto_next` e `]d` chama `goto_prev`. Se não for intencional, basta trocar.
-2. **`<leader>vr` no which-key** está descrito como "LSP references", mas o atalho real é `<leader>vrr`.
-3. **Prefixos que compartilham teclas** (`<leader>d` × `<leader>dd`, `<leader>b` × `<leader>bd`/`<leader>bn`, `<leader>w` × `<leader>ww`/`wq`/...): como o `timeoutlen` é 300 ms, os atalhos curtos só disparam depois desse tempo de espera.
-4. **`<Tab>` e `<C-i>`** são a mesma tecla em muitos terminais, então o remap de `<Tab>` para `:bnext` sobrescreve o `<C-i>` (avançar no jumplist).
-5. **`<C-e>`** tem dois usos diferentes: Harpoon no modo normal e "esconder menu" do blink.cmp no modo insert (sem conflito, pois os modos são distintos).
-6. **`<C-p>`** também tem usos diferentes: git files no modo normal e "item anterior" no autocomplete (modo insert).
-7. **Autopair de `'`** insere par mesmo em contextos como apóstrofos em texto (ex.: `don't`), o que pode atrapalhar em arquivos de texto/markdown.
