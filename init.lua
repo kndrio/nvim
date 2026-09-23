@@ -505,16 +505,6 @@ require('packer').startup(function(use)
     }
 
     use 'nvim-neotest/nvim-nio'
-    use {
-        'nvim-neotest/neotest',
-        requires = {
-            'nvim-lua/plenary.nvim',
-            'nvim-treesitter/nvim-treesitter',
-            'nvim-neotest/nvim-nio',
-            'nvim-neotest/neotest-python',
-            'nvim-neotest/neotest-jest',
-        },
-    }
 
     use 'stevearc/conform.nvim'
 
@@ -995,17 +985,6 @@ local function post_install_setup()
     vim.keymap.set("n", "<leader>vrn", vim.lsp.buf.rename)
     vim.keymap.set("i", "<C-h>", vim.lsp.buf.signature_help)
 
-    -- Neotest
-    vim.keymap.set('n', '<leader>vtn', function() require('neotest').run.run() end,
-        { desc = 'Test: run nearest' })
-    vim.keymap.set('n', '<leader>vtf', function() require('neotest').run.run(vim.fn.expand('%')) end,
-        { desc = 'Test: run file' })
-    vim.keymap.set('n', '<leader>vts', function() require('neotest').summary.toggle() end,
-        { desc = 'Test: toggle summary' })
-    vim.keymap.set('n', '<leader>vto', function() require('neotest').output.open({ enter = true }) end,
-        { desc = 'Test: open output' })
-
-    -- trouble.nvim
     vim.keymap.set('n', '<leader>T', '<cmd>Trouble diagnostics toggle<CR>', { desc = 'Trouble: diagnostics' })
     vim.keymap.set('n', '<leader>lT', '<cmd>Trouble qflist toggle<CR>', { desc = 'Trouble: quickfix' })
 
