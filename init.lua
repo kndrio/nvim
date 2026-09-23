@@ -1116,13 +1116,13 @@ local function post_install_setup()
     set("n", "<leader>lm", "<cmd>Mason<CR>", { desc = "Open Mason LSP installer" })
 
     --set("n", "<leader><leader>", function() require("fzf-lua").files({ hidden = true }) end, { desc = "Search Files" })
-    set("n", "<leader>sh", function() require("fzf-lua").help_tags() end, { desc = "Search Help" })
-    set("n", "<leader>sk", function() require("fzf-lua").keymaps() end, { desc = "Search Keymaps" })
-    set("n", "<leader>ss", function() require("fzf-lua").builtin() end, { desc = "Search Select" })
-    set("n", "<leader>sw", function() require("fzf-lua").grep_cword() end, { desc = "Search Word" })
-    set("n", "<leader>sd", function() require("fzf-lua").diagnostics_document() end,
+    set("n", "<leader>ch", function() require("fzf-lua").help_tags() end, { desc = "Search Help" })
+    set("n", "<leader>ck", function() require("fzf-lua").keymaps() end, { desc = "Search Keymaps" })
+    set("n", "<leader>cs", function() require("fzf-lua").builtin() end, { desc = "Search Select" })
+    set("n", "<leader>cw", function() require("fzf-lua").grep_cword() end, { desc = "Search Word" })
+    set("n", "<leader>cd", function() require("fzf-lua").diagnostics_document() end,
         { desc = "Search Diagnostics (buf)" })
-    set("n", "<leader>sD", function() require("fzf-lua").diagnostics_workspace() end,
+    set("n", "<leader>cD", function() require("fzf-lua").diagnostics_workspace() end,
         { desc = "Search Diagnostics (ws)" })
 
     set('n', ';s', '<Plug>(VM-Find-Under)', { remap = true, desc = 'Multi-cursor: find under cursor' })
