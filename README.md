@@ -119,16 +119,7 @@ git clone https://github.com/owhska/nvim-work.git && mv nvim ~/.config/nvim
 | `<leader>T` | n | Trouble: diagnósticos |
 | `<leader>lT` | n | Trouble: quickfix |
 
-## 6. Testes (neotest)
-
-| Atalho | Modo | O que faz |
-|---|---|---|
-| `<leader>vtn` | n | Rodar o teste mais próximo |
-| `<leader>vtf` | n | Rodar todos os testes do arquivo |
-| `<leader>vts` | n | Alternar painel de resumo |
-| `<leader>vto` | n | Abrir output do teste (e entrar nele) |
-
-## 7. Harpoon
+## 6. Harpoon
 
 | Atalho | Modo | O que faz |
 |---|---|---|
@@ -139,7 +130,7 @@ git clone https://github.com/owhska/nvim-work.git && mv nvim ~/.config/nvim
 | `<leader>3` | n | Ir para o arquivo 3 |
 | `<leader>4` | n | Ir para o arquivo 4 |
 
-## 8. Ferramentas, plugins e terminal
+## 7. Ferramentas, plugins e terminal
 
 | Atalho | Modo | O que faz |
 |---|---|---|
@@ -154,7 +145,7 @@ git clone https://github.com/owhska/nvim-work.git && mv nvim ~/.config/nvim
 | `<leader>ll` | n | Status do Packer (`:PackerStatus`) |
 | `<leader>lm` | n | Abrir o Mason |
 
-## 9. Múltiplos cursores (vim-visual-multi)
+## 8. Múltiplos cursores (vim-visual-multi)
 
 | Atalho | Modo | O que faz |
 |---|---|---|
@@ -162,7 +153,7 @@ git clone https://github.com/owhska/nvim-work.git && mv nvim ~/.config/nvim
 | `;n` | n | Adicionar cursor na próxima ocorrência |
 | `;a` | n | Selecionar todas as ocorrências |
 
-## 10. Autocompletar (blink.cmp)
+## 9. Autocompletar (blink.cmp)
 
 Preset `default` do blink.cmp + as seguintes customizações:
 
@@ -176,7 +167,7 @@ Preset `default` do blink.cmp + as seguintes customizações:
 | `<C-y>` | i | Aceitar item |
 | `<C-e>` | i | Esconder o menu |
 
-## 11. Autopairs (customizado)
+## 10. Autopairs (customizado)
 
 No modo **insert**, ao digitar o caractere de abertura o par é inserido automaticamente; se o próximo caractere já for o fechamento, o cursor apenas pula por cima dele.
 
@@ -189,7 +180,7 @@ No modo **insert**, ao digitar o caractere de abertura o par é inserido automat
 | `'` | `''` |
 | `` ` `` | ` `` ` |
 
-## 12. Dashboard (tela inicial, sem argumentos)
+## 11. Dashboard (tela inicial, sem argumentos)
 
 Atalhos válidos apenas no buffer do dashboard:
 
