@@ -37,14 +37,7 @@ git clone https://github.com/owhska/nvim-work.git && mv nvim ~/.config/nvim
 | `<leader>X` | n | `chmod +x` no arquivo atual |
 | `<leader>lw` | n | Alternar quebra de linha (`wrap`) |
 
-## 2. Buffers
-
-| Atalho | Modo | O que faz |
-|---|---|---|
-| `<leader>bd` | n | Deletar buffer (`:bdelete!`) |
-| `<leader>bn` | n | Novo buffer vazio (`:enew`) |
-
-## 3. Navegação e edição
+## 2. Navegação e edição
 
 | Atalho | Modo | O que faz |
 |---|---|---|
@@ -66,7 +59,7 @@ git clone https://github.com/owhska/nvim-work.git && mv nvim ~/.config/nvim
 | `<leader>m` | v | Comentar/descomentar as linhas selecionadas |
 | `<leader>cf` | n | Copiar o nome/caminho do arquivo para o clipboard |
 
-## 4. Busca e fuzzy finder (fzf-lua)
+## 3. Busca e fuzzy finder (fzf-lua)
 
 | Atalho | Modo | O que faz |
 |---|---|---|
@@ -93,7 +86,7 @@ git clone https://github.com/owhska/nvim-work.git && mv nvim ~/.config/nvim
 | `<Esc>` | Fechar a janela |
 | `<CR>` | Abrir o link da linha atual no navegador (`xdg-open`) |
 
-## 5. Git
+## 4. Git
 
 | Atalho | Modo | O que faz |
 |---|---|---|
@@ -106,7 +99,7 @@ git clone https://github.com/owhska/nvim-work.git && mv nvim ~/.config/nvim
 | `<leader>gg` | n | Git grep (fzf-lua) |
 | `<leader>d` | n | Abrir Diffview |
 
-## 6. LSP e diagnósticos
+## 5. LSP e diagnósticos
 
 | Atalho | Modo | O que faz |
 |---|---|---|
@@ -126,7 +119,7 @@ git clone https://github.com/owhska/nvim-work.git && mv nvim ~/.config/nvim
 | `<leader>T` | n | Trouble: diagnósticos |
 | `<leader>lT` | n | Trouble: quickfix |
 
-## 7. Testes (neotest)
+## 6. Testes (neotest)
 
 | Atalho | Modo | O que faz |
 |---|---|---|
@@ -135,7 +128,7 @@ git clone https://github.com/owhska/nvim-work.git && mv nvim ~/.config/nvim
 | `<leader>vts` | n | Alternar painel de resumo |
 | `<leader>vto` | n | Abrir output do teste (e entrar nele) |
 
-## 8. Harpoon
+## 7. Harpoon
 
 | Atalho | Modo | O que faz |
 |---|---|---|
@@ -146,7 +139,7 @@ git clone https://github.com/owhska/nvim-work.git && mv nvim ~/.config/nvim
 | `<leader>3` | n | Ir para o arquivo 3 |
 | `<leader>4` | n | Ir para o arquivo 4 |
 
-## 9. Ferramentas, plugins e terminal
+## 8. Ferramentas, plugins e terminal
 
 | Atalho | Modo | O que faz |
 |---|---|---|
@@ -161,7 +154,7 @@ git clone https://github.com/owhska/nvim-work.git && mv nvim ~/.config/nvim
 | `<leader>ll` | n | Status do Packer (`:PackerStatus`) |
 | `<leader>lm` | n | Abrir o Mason |
 
-## 10. Múltiplos cursores (vim-visual-multi)
+## 9. Múltiplos cursores (vim-visual-multi)
 
 | Atalho | Modo | O que faz |
 |---|---|---|
@@ -169,7 +162,7 @@ git clone https://github.com/owhska/nvim-work.git && mv nvim ~/.config/nvim
 | `;n` | n | Adicionar cursor na próxima ocorrência |
 | `;a` | n | Selecionar todas as ocorrências |
 
-## 11. Autocompletar (blink.cmp)
+## 10. Autocompletar (blink.cmp)
 
 Preset `default` do blink.cmp + as seguintes customizações:
 
@@ -183,7 +176,7 @@ Preset `default` do blink.cmp + as seguintes customizações:
 | `<C-y>` | i | Aceitar item |
 | `<C-e>` | i | Esconder o menu |
 
-## 12. Autopairs (customizado)
+## 11. Autopairs (customizado)
 
 No modo **insert**, ao digitar o caractere de abertura o par é inserido automaticamente; se o próximo caractere já for o fechamento, o cursor apenas pula por cima dele.
 
@@ -196,7 +189,7 @@ No modo **insert**, ao digitar o caractere de abertura o par é inserido automat
 | `'` | `''` |
 | `` ` `` | ` `` ` |
 
-## 13. Dashboard (tela inicial, sem argumentos)
+## 12. Dashboard (tela inicial, sem argumentos)
 
 Atalhos válidos apenas no buffer do dashboard:
 
