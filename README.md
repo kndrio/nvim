@@ -41,8 +41,6 @@ git clone https://github.com/owhska/nvim-work.git && mv nvim ~/.config/nvim
 
 | Atalho | Modo | O que faz |
 |---|---|---|
-| `<Tab>` | n | Próximo buffer (`:bnext`) |
-| `<S-Tab>` | n | Buffer anterior (`:bprevious`) |
 | `<leader>bd` | n | Deletar buffer (`:bdelete!`) |
 | `<leader>bn` | n | Novo buffer vazio (`:enew`) |
 
