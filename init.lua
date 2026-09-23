@@ -886,7 +886,7 @@ local function post_install_setup()
             { "<leader>vww",     desc = "Workspace symbol" },
             { "<leader>vd",      desc = "Open diagnostic float" },
             { "<leader>vca",     desc = "Code action" },
-            { "<leader>vr",      desc = "LSP references" },
+            { "<leader>vrr",     desc = "LSP references" },
             { "<leader>vrn",     desc = "LSP rename" },
             --
             -- Busca de arquivos / conteúdo (fzf-lua) + seletor de diretórios
