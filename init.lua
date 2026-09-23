@@ -1107,11 +1107,6 @@ local function post_install_setup()
     set("n", "<leader><up>", ":resize +10<cr>")
     set("n", "<leader><down>", ":resize -10<cr>")
 
-    set("n", "<Tab>", ":bnext<cr>", kopts)
-    set("n", "<S-Tab>", ":bprevious<cr>", kopts)
-    set("n", "<leader>bd", ":bdelete!<cr>", kopts)
-    set("n", "<leader>bn", "<cmd> enew <cr>", kopts)
-
     set("n", "<leader>ll", "<cmd>PackerStatus<CR>", { desc = "Open Packer status" })
     set("n", "<leader>lm", "<cmd>Mason<CR>", { desc = "Open Mason LSP installer" })
 
